@@ -1,0 +1,19 @@
+{
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true
+  },
+  "extends": "eslint:recommended",
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-process-env": "error",
+    "no-var": "error",
+    "prefer-arrow-callback": "error",
+    "prefer-const": "warn",
+    "no-duplicate-imports": "warn",
+    "no-path-concat": "error",
+    "no-console": "warn"
+  }
+}
