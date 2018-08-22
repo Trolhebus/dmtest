@@ -3,5 +3,5 @@ const logToConsole = msg => {
   console.log(msg);
 };
 
-const message = 'my message to log';
+const message = 'my message to log!';
 logToConsole(message);
